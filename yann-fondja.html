@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yann Fondja | Développeur Backend - DevCreators</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation (réutilisée) -->
+    <header class="main-header">
+        <div class="container">
+            <h1 class="logo">Dev<span>Creators</span></h1>
+            <p class="tagline">Yann Fondja - Développeur Backend</p>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <div class="container">
+            <ul class="nav-menu">
+                <li><a href="index.html"><i class="fas fa-home"></i> Accueil</a></li>
+                <li><a href="index.html#services"><i class="fas fa-cogs"></i> Services</a></li>
+                <li><a href="index.html#team"><i class="fas fa-users"></i> Équipe</a></li>
+                <li class="dropdown">
+                    <a href="#"><i class="fas fa-user"></i> Membres <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="loule-joan.html">Loule Joan</a></li>
+                        <li><a href="blandine-dounakon.html">Blandine Dounakon</a></li>
+                        <li><a href="aurel-tona.html">Aurel Tona</a></li>
+                        <li><a href="yann-fondja.html" class="active">Yann Fondja</a></li>
+                        <li><a href="yann-heussieu.html">Yann Heussieu</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+            <div class="mobile-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section Personnelle -->
+    <section class="member-hero">
+        <div class="container">
+            <div class="member-header">
+                <div class="member-avatar">
+                    <span>YF</span>
+                </div>
+                <div class="member-info">
+                    <h1>Yann Fondja</h1>
+                    <p class="member-title">Développeur Backend Senior</p>
+                    <div class="member-social">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="mailto:collinsyann8@gmail.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contenu Principal -->
+    <main class="container member-container">
+        <!-- Section Compétences -->
+        <section class="member-section">
+            <h2><i class="fas fa-code"></i> Compétences Techniques</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-bars">
+                        <div class="skill">
+                            <span>Node.js / Express</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 95%"></div>
+                            </div>
+                            <span class="skill-percent">95%</span>
+                        </div>
+                        <div class="skill">
+                            <span>Python / Django</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%"></div>
+                            </div>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <div class="skill">
+                            <span>API REST / GraphQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 92%"></div>
+                            </div>
+                            <span class="skill-percent">92%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Bases de données</h3>
+                    <div class="skill-bars">
+                        <div class="skill">
+                            <span>MongoDB</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 88%"></div>
+                            </div>
+                            <span class="skill-percent">88%</span>
+                        </div>
+                        <div class="skill">
+                            <span>PostgreSQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%"></div>
+                            </div>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <div class="skill">
+                            <span>Redis</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%"></div>
+                            </div>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Projets -->
+        <section class="member-section">
+            <h2><i class="fas fa-project-diagram"></i> Projets Récents</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>API E-commerce</h3>
+                        <span class="project-status completed">Terminé</span>
+                    </div>
+                    <p>API RESTful pour une plateforme e-commerce avec plus de 10 000 utilisateurs.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">MongoDB</span>
+                        <span class="tech-tag">JWT</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Système de Paiement</h3>
+                        <span class="project-status in-progress">En cours</span>
+                    </div>
+                    <p>Microservices pour traitement de paiements sécurisés avec Stripe intégration.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Docker</span>
+                        <span class="tech-tag">Kafka</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Contact -->
+        <section class="member-section" id="contact">
+            <h2><i class="fas fa-paper-plane"></i> Contact & Collaboration</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h3>Email</h3>
+                        <p>collinsyann8@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-calendar-alt"></i>
+                    <div>
+                        <h3>Disponibilité</h3>
+                        <p>Disponible pour nouveaux projets</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h3>Localisation</h3>
+                        <p>Travail en remote & présentiel</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>DevCreators</h3>
+                    <p>Agence de développement web créative et innovante.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Navigation</h3>
+                    <ul class="team-list">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="index.html#team">Équipe</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 DevCreators. Tous droits réservés - Groupe de projet Git/GitHub</p>
+                <p class="member-footer">Page personnelle de Yann Fondja</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
