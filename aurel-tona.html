@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aurel Tona | Développeur Frontend - DevCreators</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation (réutilisée) -->
+    <header class="main-header">
+        <div class="container">
+            <h1 class="logo">Dev<span>Creators</span></h1>
+            <p class="tagline">Aurel Tona - Développeur frontend</p>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <div class="container">
+            <ul class="nav-menu">
+                <li><a href="index.html"><i class="fas fa-home"></i> Accueil</a></li>
+                <li><a href="index.html#services"><i class="fas fa-cogs"></i> Services</a></li>
+                <li><a href="index.html#team"><i class="fas fa-users"></i> Équipe</a></li>
+                <li class="dropdown">
+                    <a href="#"><i class="fas fa-user"></i> Membres <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="loule-joan.html">Loule Joan</a></li>
+                        <li><a href="blandine-dounakon.html">Blandine Dounakon</a></li>
+                        <li><a href="aurel-tona.html">Aurel Tona</a></li>
+                        <li><a href="yann-fondja.html" class="active">Yann Fondja</a></li>
+                        <li><a href="yann-heussieu.html">Yann Heussieu</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+            <div class="mobile-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section Personnelle -->
+    <section class="member-hero">
+        <div class="container">
+            <div class="member-header">
+                <div class="member-avatar">
+                    <span>AT</span>
+                </div>
+                <div class="member-info">
+                    <h1>Aurel Tona</h1>
+                    <p class="member-title">Développeur Frontend Senior</p>
+                    <div class="member-social">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="mailto:collinsyann8@gmail.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contenu Principal -->
+    <main class="container member-container">
+        <!-- Section Compétences -->
+       <section class="member-section">
+    <h2><i class="fas fa-laptop-code"></i> Stack Technique Frontend</h2>
+    <div class="tech-stack">
+        <div class="tech-category">
+            <h3>Frameworks & Librairies</h3>
+            <div class="tech-icons">
+                <div class="tech-icon">
+                    <i class="fab fa-react" style="color: #61DAFB;"></i>
+                    <span>React</span>
+                    <div class="tech-progress" style="width: 96%; background: #61DAFB;"></div>
+                </div>
+                <div class="tech-icon">
+                    <i class="fab fa-vuejs" style="color: #42B883;"></i>
+                    <span>Vue.js</span>
+                    <div class="tech-progress" style="width: 90%; background: #42B883;"></div>
+                </div>
+                <div class="tech-icon">
+                    <i class="fab fa-angular" style="color: #DD0031;"></i>
+                    <span>Angular</span>
+                    <div class="tech-progress" style="width: 85%; background: #DD0031;"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="tech-category">
+            <h3>État & Outils</h3>
+            <div class="tech-badges">
+                <span class="tech-badge" style="background: #764ABC; color: white;">Redux</span>
+                <span class="tech-badge" style="background: #FF4785; color: white;">Styled Components</span>
+                <span class="tech-badge" style="background: #3178C6; color: white;">TypeScript</span>
+                <span class="tech-badge" style="background: #000000; color: white;">Next.js</span>
+                <span class="tech-badge" style="background: #FF6B35; color: white;">Vite</span>
+                <span class="tech-badge" style="background: #FFCA28; color: #000;">Webpack</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="member-section">
+    <h2><i class="fas fa-rocket"></i> Performance & Optimisation</h2>
+    <div class="performance-metrics">
+        <div class="metric">
+            <div class="metric-circle" data-percent="95">
+                <svg class="progress-ring" width="120" height="120">
+                    <circle class="progress-ring-circle" stroke="#3B82F6" stroke-width="8" fill="transparent" r="52" cx="60" cy="60"/>
+                </svg>
+                <span class="metric-value">95%</span>
+            </div>
+            <h4>Performance Lighthouse</h4>
+            <p>Score moyen sur mes projets</p>
+        </div>
+        
+        <div class="metric">
+            <div class="metric-circle" data-percent="98">
+                <svg class="progress-ring" width="120" height="120">
+                    <circle class="progress-ring-circle" stroke="#10B981" stroke-width="8" fill="transparent" r="52" cx="60" cy="60"/>
+                </svg>
+                <span class="metric-value">98%</span>
+            </div>
+            <h4>Accessibilité</h4>
+            <p>Conforme WCAG 2.1 AA</p>
+        </div>
+        
+        <div class="metric">
+            <div class="metric-circle" data-percent="90">
+                <svg class="progress-ring" width="120" height="120">
+                    <circle class="progress-ring-circle" stroke="#F59E0B" stroke-width="8" fill="transparent" r="52" cx="60" cy="60"/>
+                </svg>
+                <span class="metric-value">-90%</span>
+            </div>
+            <h4>Réduction Bundle</h4>
+            <p>Taille optimisée des assets</p>
+        </div>
+    </div>
+</section>
+
+<section class="member-section">
+    <h2><i class="fas fa-code"></i> Démo Interactive</h2>
+    <div class="code-demo">
+        <div class="code-editor">
+            <div class="editor-header">
+                <div class="editor-dots">
+                    <span style="background: #FF5F56;"></span>
+                    <span style="background: #FFBD2E;"></span>
+                    <span style="background: #27CA3F;"></span>
+                </div>
+                <span class="editor-title">Component.jsx</span>
+            </div>
+            <div class="editor-content">
+                <pre><code>import React, { useState } from 'react';
+import styled from 'styled-components';
+
+const Button = styled.button`
+  background: ${props => props.primary ? '#3B82F6' : 'white'};
+  color: ${props => props.primary ? 'white' : '#3B82F6'};
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: 2px solid #3B82F6;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+  }
+`;
+
+export default function InteractiveDemo() {
+  const [count, setCount] = useState(0);
+  
+  return (
+    &lt;div className="demo-container"&gt;
+      &lt;h3&gt;Compteur: {count}&lt;/h3&gt;
+      &lt;Button primary onClick={() => setCount(c => c + 1)}&gt;
+        Incrémenter (+)
+      &lt;/Button&gt;
+    &lt;/div&gt;
+  );
+}</code></pre>
+            </div>
+        </div>
+        <div class="demo-output">
+            <div id="interactive-demo">
+                <!-- Rendu du composant React simulé -->
+                <h3 style="color: #1e293b;">Compteur: <span id="demo-count">0</span></h3>
+                <button id="demo-button" style="background: #3B82F6; color: white; padding: 12px 24px; border-radius: 8px; border: none; cursor: pointer; transition: all 0.3s ease;">
+                    Incrémenter (+)
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>DevCreators</h3>
+                    <p>Agence de développement web créative et innovante.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Navigation</h3>
+                    <ul class="team-list">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="index.html#team">Équipe</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 DevCreators. Tous droits réservés - Groupe de projet Git/GitHub</p>
+                <p class="member-footer">Page personnelle de Aurel Tona</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+// Script pour la démo interactive
+document.addEventListener('DOMContentLoaded', function() {
+    const countElement = document.getElementById('demo-count');
+    const button = document.getElementById('demo-button');
+    let count = 0;
+    
+    button.addEventListener('click', function() {
+        count++;
+        countElement.textContent = count;
+        
+        // Animation
+        button.style.transform = 'translateY(-2px)';
+        button.style.boxShadow = '0 4px 12px rgba(59, 130, 246, 0.3)';
+        
+        setTimeout(() => {
+            button.style.transform = 'translateY(0)';
+            button.style.boxShadow = 'none';
+        }, 300);
+    });
+    
+    // Animation des cercles de performance
+    const circles = document.querySelectorAll('.metric-circle');
+    circles.forEach(circle => {
+        const percent = circle.getAttribute('data-percent');
+        const circleElement = circle.querySelector('.progress-ring-circle');
+        const radius = circleElement.r.baseVal.value;
+        const circumference = radius * 2 * Math.PI;
+        
+        circleElement.style.strokeDasharray = `${circumference} ${circumference}`;
+        circleElement.style.strokeDashoffset = circumference;
+        
+        const offset = circumference - (percent / 100) * circumference;
+        setTimeout(() => {
+            circleElement.style.strokeDashoffset = offset;
+        }, 500);
+    });
+});
+</script>
+</body>
+</html>
