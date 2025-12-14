@@ -774,3 +774,63 @@ footer {
     color: #94a3b8;
     font-style: italic;
 }
+
+/* Infrastructure Grid */
+.infra-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.infra-card {
+    background: white;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.infra-card:hover {
+    border-color: var(--primary-color);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.infra-card i {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.infra-card h3 {
+    color: var(--dark-color);
+    margin-bottom: 0.8rem;
+}
+
+/* Tools List */
+.tools-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-top: 2rem;
+}
+
+.tool-item {
+    background: #f8fafc;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border-left: 4px solid var(--accent-color);
+}
+
+.tool-item h4 {
+    color: var(--dark-color);
+    margin-bottom: 0.5rem;
+}
+
+.tool-item p {
+    color: var(--gray-color);
+    font-size: 0.95rem;
+}
+
